@@ -1,6 +1,6 @@
 # web-CNAB
 
-Este é um projeto para processamento de arquivos CNAB . Com ele, é possível fazer upload de arquivos CNAB e armazenar as informações das transações em um banco de dados.
+Este é um projeto para processamento de arquivos CNAB. Com ele, é possível fazer upload de arquivos CNAB e armazenar as informações das transações em um banco de dados.
 
 ## Instalação
 
