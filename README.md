@@ -39,10 +39,6 @@ pip install -r requirements.txt
 4. Em seguida, execute as migrações
 
 ```shell
-python manage.py makemigrations
-```
-
-```shell
 python manage.py migrate
 ```
 
@@ -58,4 +54,4 @@ Para visualizar a lista de transações importadas e o saldo total por loja, ace
 
 POST /api/upload/: Faz o upload de um arquivo CNAB.
 
-GET /api/transactions/: Retorna a lista de transações importadas e o saldo total por loja.
+GET /api/list/: Retorna a lista de transações importadas e o saldo total por loja.
