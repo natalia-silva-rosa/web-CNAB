@@ -46,7 +46,7 @@ def process_cnab_file(file):
 def upload_file(request):
     if request.method == 'POST':
         file = request.FILES['file']
-        if not file.name.endswith('.cnab'):
+        if not file.name.endswith('.cnab') or not file.name.endswith('.txt'):
             return HttpResponse(status=status.HTTP_400_BAD_REQUEST, content='O arquivo deve ser um arquivo CNAB válido.')
         process_cnab_file(file) 
         return HttpResponse(status=status.HTTP_200_OK, content='Arquivo processado com sucesso')
